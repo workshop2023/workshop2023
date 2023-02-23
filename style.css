@@ -1,0 +1,55 @@
+html, body {
+  ma: 0;
+  padding: 0;
+  height: 100%; 
+  overflow: hidden
+}
+canvas {
+  display: block;
+}
+
+.button{
+  background-color: white;
+  border: none;
+  position: fixed;
+  left: 33.5%;
+  top: 55%;
+  display: none;
+  cursor: pointer;
+  width: 33vw;
+
+ 
+}
+
+
+.text{
+  position: fixed;
+  font-size: 5vw;
+  font-family: "Century Gothic";
+  left: 25%;
+  top: 25%;
+  display: none;
+}
+
+.text2{
+  position: fixed;
+  font-size: 2vw;
+  font-family: "Century Gothic";
+  left: 25%;
+}
+
+.form {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+
+}
+
+.subbut{
+  background-colour: black;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+appearance: none;
+  colour: black;
+}
